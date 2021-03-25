@@ -23,10 +23,10 @@ body {
 
 .background-top__img {
   position: absolute;
-  top: 80px;
-  left: 0;
-  width: 40rem;
-  height: 40rem;
+  top: -25rem;
+  left: -10rem;
+  width: 50rem;
+  height: 50rem;
   background: var(--colorDarkCyan);
   z-index: 2;
 }
@@ -108,8 +108,8 @@ body {
   position: absolute;
   background: var(--colorDarkCyan);
   z-index: 2;
-  top: 80px;
-  right: 0;
-  width: 40rem;
-  height: 40rem;
+  bottom: -25rem;
+  right: -10rem;
+  width: 50rem;
+  height: 50rem;
 }
