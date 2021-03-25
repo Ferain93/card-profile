@@ -1,48 +1,61 @@
 <!DOCTYPE html>
-<html lang="en" >
-<head>
-  <meta charset="UTF-8">
-  <title>Card profile</title>
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="./style.css">
+<html lang="es" >
+  <head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="./style.css">
+    <title>Card profile</title>
+  </head>
+  <body>
+  <!-- partial:index.partial.html -->
+    <div class="wrapper">
 
-</head>
-<body>
-<!-- partial:index.partial.html -->
-<div class="wrapper">
-    <div class="circulo_1"></div>      
-    <main class="main">
-      <section class="content">
+      <figure class="background-top__img">   
+        <img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/6b043af8-67bf-4736-85ff-b4edc6dfc6a9/bg-pattern-top.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210325%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210325T205325Z&X-Amz-Expires=86400&X-Amz-Signature=a0dcee21df4021e1cdcb62de3e7b60a064c3f11f43dad506c384e351cf3891b0&X-Amz-SignedHeaders=host" alt="Imagen circular del fondo Pattern top">
+      </figure> 
+
+      <main class="main">
+        
         <div class="hero"></div>
+
         <figure class="profile-item__img">   
           <img src="https://randomuser.me/api/portraits/lego/1.jpg" alt="Imagen del Usuario">
         </figure>
-        <article class="content-profile">
-          <h2 class="name">Victor Crest</h2>
-          <h3 class="age">26</h3>  
-        </article>
-        <span class="city">London</span> 
-        <article class="content-statistics">
-          <ul class="statistics-list">
-            <li class="content-statistics__item">
+
+        <section class="content">
+          <article class="content-profile">
+            <h2 class="name">Victor Crest</h2>
+            <h3 class="age">26</h3>  
+          </article>
+          <span class="city">London</span>
+        </section>
+
+        <section class="content">
+          <article class="content-statistics">
+            <ul class="statistics-list">
+              <li class="content-statistics__item">
                 <div class="title">80k</div>
                 <div class="num" >Followers</div>
-            </li>
-            <li class="content-statistics__item">
+              </li>
+              <li class="content-statistics__item">
                 <div class="title">803K</div>
                 <div class="num" >Likes</div>
-            </li>
-            <li class="content-statistics__item">
+              </li>
+              <li class="content-statistics__item">
                 <div class="title">1.4K</div>
                 <div class="num" >Photos</div>
-            </li>
-          </ul>
-        </article>
-      </section>       
-    </main>
-    <div class="circulo_2"></div>
-  </div>
-<!-- partial -->
-  
-</body>
+              </li>
+            </ul>
+          </article>
+        </section> 
+
+      </main>
+
+      <figure class="background-bottom__img">   
+        <img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/0b7e9edd-cbbf-4a67-8309-a456038917d3/bg-pattern-bottom.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210325%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210325T205325Z&X-Amz-Expires=86400&X-Amz-Signature=9d7e9f90816764cb0501ace17d3b92948394d4218df13374138f2698c68d4c5a&X-Amz-SignedHeaders=host" alt="Imagen circular del fondo Pattern bottom">
+      </figure>
+
+    </div>
+    <!-- partial -->
+  </body>
 </html>
