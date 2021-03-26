@@ -52,18 +52,23 @@ body {
   border-top-right-radius: 30px;
 }
 
+.profile-item__img {
+  margin: 0;
+}
+
 .profile-item__img img {
-  border: 20px solid var(--colorWhite);
+  border: 10px solid var(--colorWhite);
   border-radius: 50%;
-  width: 15vw;
-  height: 17vh;
-  margin: -120px 0px 0px;
+  width: 7rem;
+  height: 7rem;
+  margin: -3.5rem 0 0;
 }
 
 .content-profile {
   display: flex; 
   justify-content: center;
   align-items: center;
+  margin: 1rem 0;
 }
 
 .content-profile .name {
