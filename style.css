@@ -4,6 +4,7 @@
   --colorDarkGraBlue: #696E81;
   --colorDarkGray: #969696;
   --colorWhite: #FFFFFF;
+  --colorBlack: #21212191; 
   font-size: 18px;
 }
 
@@ -12,6 +13,7 @@ body {
   font-family: 'Kumbh Sans';
   text-align: center;
   z-index: 1;
+  margin: 0;
 }
 
 .wrapper {
@@ -40,7 +42,7 @@ body {
   text-align: center;
   background: var(--colorWhite);
   border-radius: 30px;  
-  box-shadow: 5px 10px 8px gray;
+  box-shadow: 0 0 20px var(--colorBlack);
   min-width: 20rem;
   z-index: 99;
 }
@@ -90,7 +92,7 @@ body {
 }
 
 .content-statistics {
-  border-top: 3px solid var(--colorDarkGraBlue);
+  border-top: 0.1rem solid #cacaca;
 }
 
 .statistics-list {
