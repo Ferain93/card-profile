@@ -11,6 +11,7 @@ body {
   background: var(--colorDarkCyan);
   font-family: 'Kumbh Sans';
   text-align: center;
+  z-index: 1;
 }
 
 .wrapper {
@@ -18,7 +19,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center; 
-  z-index: 1;
+  height: 100vh;
 }
 
 .background-top__img {
@@ -44,12 +45,11 @@ body {
 }
 
 .hero {
-  background-image: url('https://s3.us-west-2.amazonaws.com/secure.notion-static.com/578bac0d-d49c-4621-a0a4-47b04d3b0b0e/bg-pattern-card.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210324%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210324T182846Z&X-Amz-Expires=86400&X-Amz-Signature=d4929f64aa9107803cd1b0cd906328a5943b44bb2ec7bdae35355965ca9b8113&X-Amz-SignedHeaders=host');
+  background-image: url('images/hero.svg');
   width:100%;
-  height: 100px;
+  height: 25vh;
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
-  z-index: 1;
 }
 
 .profile-item__img img {
