@@ -36,6 +36,13 @@ body {
   z-index: 2;
 }*/
 
+.pattern {
+  position: absolute;
+  background: red;
+  width: 50vh;
+  height: 50vw;
+}
+
 .main {
   display: grid;
   grid-template-rows: 2fr 2fr 1fr;
