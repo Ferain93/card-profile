@@ -26,7 +26,8 @@ body {
 
 .pattern {
   position: absolute;
-  background: red;
+  background-repeat: no-repeat;
+  background-size: fill;
   width: 50vh;
   height: 50vw;
 }
@@ -35,12 +36,14 @@ body {
   top: 0;
   left: 0;
   background-image: url('images/bg-pattern-top.svg');
+  background-position: right bottom;
 }
 
 .pattern-bottom {
   bottom: 0;
   right: 0;
   background-image: url('images/bg-pattern-bottom.svg');
+  background-position: left top;
 }
 
 .main {
@@ -121,14 +124,3 @@ body {
   font-size: 0.6rem;
   font-weight: 400; 
 }
-
-/* NO LOS QUIEREN VER
-.background-bottom__img img{
-  position: absolute;
-  background: var(--colorDarkCyan);
-  bottom: -10rem;
-  right: -10rem;
-  width: 50vw;
-  height: 50vh;
-  margin: 0;
-} */
