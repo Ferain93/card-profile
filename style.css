@@ -22,6 +22,7 @@ body {
   height: 100vh;
 }
 
+/* NO LOS QUIEREN VER
 .background-top__img img{
   position: absolute;
   top: -10rem;
@@ -31,7 +32,7 @@ body {
   margin: 0; 
   background: var(--colorDarkCyan);
   z-index: 2;
-}
+}*/
 
 .main {
   display: grid;
@@ -89,7 +90,7 @@ body {
 .statistics-list {
   list-style: none;
   display: grid;
-  grid-template-columns: 33% 33% 33%;
+  grid-template-columns: 1fr 1fr 1fr;
   padding: 1.5rem 1.5rem;
   gap: 1rem;
   margin: 0.6rem;
@@ -105,6 +106,8 @@ body {
   font-size: 0.6rem;
   font-weight: 400; 
 }
+
+/* NO LOS QUIEREN VER
 .background-bottom__img img{
   position: absolute;
   background: var(--colorDarkCyan);
@@ -113,4 +116,4 @@ body {
   width: 50vw;
   height: 50vh;
   margin: 0;
-}
+} */
