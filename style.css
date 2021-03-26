@@ -43,6 +43,16 @@ body {
   height: 50vw;
 }
 
+.pattern-top {
+  top: 0;
+  left: 0;
+}
+
+.pattern-bottom {
+  bottom: 0;
+  right: 0;
+}
+
 .main {
   display: grid;
   grid-template-rows: 2fr 2fr 1fr;
